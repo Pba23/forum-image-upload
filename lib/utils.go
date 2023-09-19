@@ -160,7 +160,7 @@ func generateUniqueFilename(filename string) string {
 
 func isValidFileType(contentType string) bool {
 	switch contentType {
-	case "image/jpeg", "image/png", "image/gif":
+	case "image/jpeg", "image/png", "image/gif", "image/svg+xml":
 		return true
 	}
 	return false
